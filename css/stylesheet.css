@@ -48,6 +48,7 @@ h1 {
 
 h2 {
   font-family: 'Sarabun', sans-serif;
+  color: white;
 }
 
 
@@ -62,6 +63,10 @@ h2 {
   margin-top: 10px;
   padding-left: 12px;
   padding-right: 66px;
+}
+
+input.inputgroup {
+  margin-right: 120px;
 }
 
 button {
