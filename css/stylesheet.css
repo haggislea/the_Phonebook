@@ -1,4 +1,14 @@
 
+/* RESET CSS -------------------------------------  */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: auto;
+  /* Removing all margin and padding from elements */
+}
+
+
 div.landline {
 height: 280px;
 position: relative;
@@ -9,9 +19,10 @@ max-width: 100%;
 background-image: url(../images/redphone.jpg)
 }
 
-@media screen and (max-width: 490px) {
+
+/*@media screen and (max-width: 490px) {
   div.landline {
-display: none;
+  display: none;
   }
 }
 
@@ -19,8 +30,7 @@ display: none;
   h1 {
 display: none;
   }
-}
-
+}*/
 
 img.landline2 {
   max-width: 100%;
@@ -68,13 +78,13 @@ img.manonphone, img.barbershop {
 
 
 section.findperson {
-    background-image: url("images/manonphone.jpg");
+    background-image: url("../images/manonphone.jpg");
     background-size: cover;
     overflow: hidden;
 }
 
 section.findbusiness {
-  background-image: url("images/barbershop.jpg");
+  background-image: url("../images/barbershop.jpg");
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
